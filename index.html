@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/a927bbade7.js"></script>
+    <title>Carousel</title>
+</head>
+<body>
+    <div class="container">
+
+        <input type="radio" name="images" id="image-one" checked>
+        <input type="radio" name="images" id="image-two">
+        <input type="radio" name="images" id="image-three">
+
+        
+        <div class="slider-img" id="one">
+            <img src="./img/carousel-1.jpg" alt="abstract-picture">
+            <div class="slider-text">
+                <h2>Straight Lines</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus inventore beatae odio optio quasi! Non architecto adipisci optio aperiam aliquam quisquam? Doloribus praesentium voluptatum deleniti, blanditiis, fugit quam ducimus esse consequuntur eligendi, alias rem. Sunt fugiat ex at ratione aspernatur! </p>
+            </div>
+            <label for="image-three" class="pre"><i class="fas fa-chevron-left"></i></label>
+            <label for="image-two" class="nxt"><i class="fas fa-chevron-right"></i></label>
+
+        </div>
+
+        <div class="slider-img" id="two">
+            <img src="./img/carousel-2.jpg" alt="abstract-picture">
+            <div class="slider-text">
+                <h2>Material Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus inventore beatae odio optio quasi! Non architecto adipisci optio aperiam aliquam quisquam? Doloribus praesentium voluptatum deleniti, blanditiis, fugit quam ducimus esse consequuntur eligendi, alias rem. Sunt fugiat ex at ratione aspernatur! </p>
+            </div>
+            <label for="image-one" class="pre"><i class="fas fa-chevron-left"></i></label>
+            <label for="image-three" class="nxt"><i class="fas fa-chevron-right"></i></label>
+        </div>
+
+        <div class="slider-img" id="three">
+            <img src="./img/carousel-3.jpg" alt="abstract-picture">
+            <div class="slider-text">
+                <h2>Abstract Forms</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus inventore beatae odio optio quasi! Non architecto adipisci optio aperiam aliquam quisquam? Doloribus praesentium voluptatum deleniti, blanditiis, fugit quam ducimus esse consequuntur eligendi, alias rem. Sunt fugiat ex at ratione aspernatur! </p>
+            </div>
+            <label for="image-two" class="pre"><i class="fas fa-chevron-left"></i></label>
+            <label for="image-one" class="nxt"><i class="fas fa-chevron-right"></i></label>
+        </div>
+
+        <div class="nav">
+            <label class="dots" id="dot-one" for="image-one"></label>
+            <label class="dots" id="dot-two" for="image-two"></label>
+            <label class="dots" id="dot-three" for="image-three"></label>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
